@@ -1,3 +1,5 @@
 number = int(input("Pick a number to count to: "))
-for i in range(1 , number):
-    print(number+)
+
+while number >= 1:
+    print(f"The factorial of that number is {(number +1) * number/2}")
+i += 1
