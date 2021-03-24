@@ -1,3 +1,3 @@
-number = int(input("Pick a number to count to: "))
-
-print(f"The sum of the numbers to {number} is {(number +1) * number/2}")
+number = int(input("Pick a number"))
+total = sum(range(1, number + 1))
+print(f"All numbers added to {number} = {total}")
