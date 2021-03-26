@@ -1,8 +1,7 @@
-code = int("0456")
-start_number = int("0000")
-while start_number <= 9999:
-    if start_number == code:
-        print(f"{start_number:04d}")
-        break
-    else:
-        start_number += 1
+pin_number = int(input("Please enter your pin number: "))
+i = 0
+while i < pin_number:
+    print(str(i).zfill(4))
+    i += 1
+pin = str(i).zfill(4)
+print(f"Your pin is: {pin}")
